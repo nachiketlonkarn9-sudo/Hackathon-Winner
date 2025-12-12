@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     return {
       server: {
         port: 3000,
-        allowesHosts: ["hackathon-winner-1.onrender.com"]
+        allowedHosts: ["hackathon-winner-1.onrender.com"]
       },
       plugins: [react()],
       define: {
